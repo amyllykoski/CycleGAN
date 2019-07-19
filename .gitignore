@@ -1,0 +1,10 @@
+.ipynb_checkpoints
+/trainA
+/trainB
+/test_trainA
+/test_trainB
+/lfw
+.DS_Store
+/checkpoint_cyclegan
+/samples_cyclegan
+/__pycache__
