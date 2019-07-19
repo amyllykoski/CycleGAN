@@ -5,6 +5,6 @@
 /test_trainB
 /lfw
 .DS_Store
-/checkpoint_cyclegan
+/checkpoints_cyclegan
 /samples_cyclegan
 /__pycache__
