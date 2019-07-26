@@ -89,10 +89,10 @@ def save_samples(iteration, fixed_Y, fixed_X, G_YtoX, G_XtoY, batch_size=16, sam
     save_images(X, fake_Y, iteration)
     merged = merge_images(X, fake_Y, batch_size)
     path = os.path.join(sample_dir, 'sample-{:06d}-X-Y.png'.format(iteration))
-    scipy.misc.imsave(path, merged)
+#     scipy.misc.imsave(path, merged)
     print('Saved {}'.format(path))
     
     merged = merge_images(Y, fake_X, batch_size)
     path = os.path.join(sample_dir, 'sample-{:06d}-Y-X.png'.format(iteration))
-    scipy.misc.imsave(path, merged)
+#     scipy.misc.imsave(path, merged)
     print('Saved {}'.format(path))
